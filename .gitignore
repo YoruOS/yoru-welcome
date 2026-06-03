@@ -1,0 +1,58 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# Build artifacts
+/build/
+/dist/
+*.o
+*.so
+*.a
+*.dll
+*.dylib
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node (если вдруг будет)
+node_modules/
+.npm/
+.yarn/
+
+# Qt / QML build
+*.user
+*.user.*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+
+# archiso / build
+out/
+work/
+iso-profile/airootfs/root/.cache/
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+.claude/
+*.tmp
